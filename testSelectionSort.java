@@ -36,7 +36,7 @@ public class testSelectionSort {
         
         SelectionSort first = new SelectionSort();
         
-        assertEquals( Sortedarr, first.basicSelectionSort(arr));
+        assertArrayEquals( Sortedarr, first.basicSelectionSort(arr));
         
         /** add tests to check for this unit test **/
     }
@@ -61,7 +61,7 @@ public class testSelectionSort {
         
         SelectionSort first = new SelectionSort();
         
-        assertEquals( Sortedarr, first.basicSelectionSort(arr));
+        assertArrayEquals( Sortedarr, first.basicSelectionSort(arr));
     }
     
     public void testMixed(){
@@ -83,7 +83,7 @@ public class testSelectionSort {
         
         SelectionSort first = new SelectionSort();
         
-        assertEquals( Sortedarr, first.basicSelectionSort(arr));
+        assertArrayEquals( Sortedarr, first.basicSelectionSort(arr));
     	
     }
     
@@ -104,7 +104,7 @@ public class testSelectionSort {
         
         SelectionSort first = new SelectionSort();
         
-        assertEquals( Sortedarr, first.basicSelectionSort(arr));
+        assertArrayEquals( Sortedarr, first.basicSelectionSort(arr));
         /** Test data contains duplicates **/
     }
 
